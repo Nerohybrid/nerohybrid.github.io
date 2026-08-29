@@ -4,5 +4,10 @@ body {
     font-family: 'Exo 2', sans-serif;
     font-size:14;
     color: black;
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 }

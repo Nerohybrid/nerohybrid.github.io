@@ -1,13 +1,17 @@
+
+header {
+    text-align: center;
+}
 body { 
 
     background-color: rgb(255, 245, 109);
-    font-family: 'Exo 2', sans-serif;
-    font-size:14;
     color: black;
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-weight: 700;
+p {
+  margin-bottom: 2em; /* increase white space after a paragraph */
 }
 
 }

@@ -32,6 +32,26 @@ div.friends{
 }
 .profile-image{
     border-radius:50%;
-    scale: -70%;
     margin:small;
+    transform: translateY(0px);
+    transition:scale 0.5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.profile-image:hover{
+     animation: meow infinite 0.5s ease;
+}
+.profile-image:active{
+    scale:-100%;
+}
+
+@keyframes meow{
+    0% {
+        transform:translateY(0px);
+    }
+    50%{
+           transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }

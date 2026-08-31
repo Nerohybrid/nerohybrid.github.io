@@ -41,7 +41,7 @@ div.title{
     grid-column-start:1 ;
     grid-column-end:3;
 }
-div.socials{
+/* div.socials{
     justify-self: center;
     grid-column-start:1 ;
     grid-column-end:3;
@@ -52,7 +52,7 @@ div.socials{
     padding-left: 5%;
     padding-right: 5%;
 
-}
+} */
 .small{
     font-size:0.75rem;
 }
@@ -69,22 +69,22 @@ div.socials{
 }
 .social-button{
     background-color: #c1809f;
-    border-radius: 20px;
+    border-radius: 15px;
     border:none;
     color: black;
     cursor: pointer;
     text-align: center;
+    padding-bottom: 1rem;
+    margin: 0.5rem;
 }
 
-.social-button:hover{
-    box-shadow: inset;
-}
 .socialbutton-text{
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     text-align: center;
     font-weight: 500;
-    font-size:medium
+    font-size:medium;
+    padding: medium;
 }
 .how-to-contact{
     justify-self: center;

@@ -1,34 +1,57 @@
 
 h1 {
-    text-align: center;
     font-size:3rem;
 }
 h2 {
     font-size:1.5rem;
 }
+span.fuck{
+ font-size:2.5rem;
+ font-weight: 700;
+}
 body { 
-
+    display:grid;
+    row-gap: 1.5em;
+    grid-template-columns: auto auto;
     background-color: rgb(255, 245, 109);
     color: black;
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
     font-size:medium
 }
+div.abt-me-head{
+    line-height: 0.25;
+    padding-bottom: 1rem;
+    padding-top:1rem;
+}
 div.about-me{
-    display:flex;
-    margin:auto;
-    max-width: 70%;
-    height:auto;
-    align-items:center;
-    flex-direction:column;
     border:solid black;
     background-color: pink;
     border-radius:12px;
+    width:50%;
+    justify-self: center;
+    grid-column-start:1 ;
+    grid-column-end:3;
+}
+div.title{
+    grid-column-start:1 ;
+    grid-column-end:3;
+}
+div.socials{
+    justify-self: center;
+    grid-column-start:1 ;
+    grid-column-end:3;
+        border:solid black;
+    background-color: pink;
+    border-radius:12px;
+    width:75%;
+
 }
 div.friends{
-    display:flex;
+    grid-column-start:1;
+    grid-column-end:3;
 }
 .profile-image{
     border-radius:50%;
@@ -42,6 +65,10 @@ div.friends{
 }
 .profile-image:active{
     scale:-100%;
+}
+footer{
+    grid-column-start:1;
+    grid-column-end:3;
 }
 
 @keyframes meow{

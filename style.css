@@ -87,7 +87,7 @@ footer{
     grid-column-start:1;
     grid-column-end:3;
 }
-
+/* animation for profile picture icon */
 @keyframes meow{
     0% {
         transform:translateY(0px);

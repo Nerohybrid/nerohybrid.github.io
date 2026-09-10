@@ -1,12 +1,12 @@
 
 h1 {
-    font-size:3rem;
+    font-size:300%;
 }
 h2 {
-    font-size:1.5rem;
+    font-size:150%;
 }
 span.fuck{
- font-size:2.5rem;
+ font-size:250%;
  font-weight: 700;
 }
 body { 
@@ -19,7 +19,7 @@ body {
     font-optical-sizing: auto;
     text-align: center;
     font-weight: 500;
-    font-size:medium
+    font-size:large
 }
 div.abt-me-head{
     line-height: 0.25;
@@ -32,7 +32,7 @@ div.about-me{
     border-radius:12px;
     padding-left: 5%;
     padding-right: 5%;
-    width: 45%;
+    width: auto;
     justify-self: center;
     grid-column-start:1 ;
     grid-column-end:3;
@@ -41,21 +41,9 @@ div.about-me{
 div.title{
     grid-column-start:1 ;
     grid-column-end:3;
-}
-/* div.socials{
-    justify-self: center;
-    grid-column-start:1 ;
-    grid-column-end:3;
-    border:solid black;
-    background-color: pink;
-    border-radius:12px;
-    width:auto;
-    padding-left: 5%;
-    padding-right: 5%;
-
-} */
+} 
 .small{
-    font-size:0.75rem;
+    font-size:75%;
 }
 .discord-button{
     background-color: pink;
@@ -96,7 +84,7 @@ div.title{
     border:solid black;
     background-color: pink;
     border-radius:12px;
-    width:auto;
+    width: auto;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 1%

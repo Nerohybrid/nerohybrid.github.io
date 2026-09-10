@@ -75,8 +75,9 @@ div.title{
     color: black;
     cursor: pointer;
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     margin: 0.5rem;
+    padding-top:0.5rem;
 }
 
 .socialbutton-text{
@@ -86,6 +87,7 @@ div.title{
     font-weight: 500;
     font-size:medium;
     padding: medium;
+    padding-top:0.25rem;
 }
 .how-to-contact{
     justify-self: center;

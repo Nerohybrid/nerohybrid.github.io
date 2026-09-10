@@ -36,6 +36,7 @@ div.about-me{
     justify-self: center;
     grid-column-start:1 ;
     grid-column-end:3;
+     padding-bottom: 1%
 }
 div.title{
     grid-column-start:1 ;
@@ -96,6 +97,7 @@ div.title{
     width:auto;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%
 }
 div.friends{
     grid-column-start:1;
@@ -106,6 +108,7 @@ div.friends{
     width:auto;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 1%;
     justify-self: center;
 }
 .profile-image{
